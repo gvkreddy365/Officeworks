@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Officeworks Web Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.officeworks.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="Officeworks Web application Test Cases(failed)">
+    <classes>
+      <class name="com.officeworks.qa.tests.CheckoutPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="getitemtexttest"/>
+        </methods>
+      </class> <!-- com.officeworks.qa.tests.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Officeworks Web application Test Cases(failed) -->
+</suite> <!-- Failed suite [Officeworks Web Application Automation Test Suite] -->
